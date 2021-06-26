@@ -1,4 +1,16 @@
+* {
+    margin: 0;
+}
+
 .heading {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: rgb(4, 4, 161);
 }
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
