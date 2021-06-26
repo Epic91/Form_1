@@ -1,5 +1,5 @@
 ## What I've learned:
-- I wanted to make the form centered, and didnt know how? The class inside of the <Div> that holds the <form> is the one that needs styling.
+- I wanted to make the form centered, and didnt know how? The div that holds the form is the one that needs styling.
 
 ![](form.png)
 
