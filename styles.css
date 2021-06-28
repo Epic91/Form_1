@@ -2,30 +2,66 @@
     margin: 0;
 }
 
+body{
+    background-color: rgb(75, 108, 200);
+    height: 100%;
+}
 
 .wrapper {
-    padding: 100px;
+    padding: 50px;
+    width: 500px;
+    padding-left: 650px;
+    
+}
+
+.form-wrapper{
+    background-color: rgb(24, 52, 144);
+    height: 700px;
+    padding: 50px;
 }
 
 .heading {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
-    color: rgb(4, 4, 161);
+    color: black;
     padding: 20px;
 }
 
-.form-wrapper{
-    background-color: pink;
-    height: 700px;
-    padding: 50px;
-    position: relative;
-}
 
 .form-container{
-    background-color: aqua;
+    background-color: rgb(61, 189, 228);
     padding: 50px;
     width: auto;
     display: flex;
     justify-content: center;
 }
+
+.form-info{
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: .5em;
+    outline: none;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+
